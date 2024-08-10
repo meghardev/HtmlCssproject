@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Agency Website</title>
       <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="css/animate.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
    </head>
 
    <body>
@@ -16,19 +20,23 @@
                   <div class="logo">
                      <img src="./img/logo.png" />
                   </div>
-                  <div class="logoname">BlueRex</div>
+                  
+               </div>
+               <div class="navbtn">
+                  <a id="toggle" class="togglebtn"><span></span></a>
                </div>
                <div class="navigation df wow bounceInUp" data-wow-delay="0.4s">
-                  <ul class="df">
-                     <li><a href="#home">Home</a></li>
-                     <li><a href="#about">About</a></li>
-                     <li><a href="#features">Features</a></li>
-                     <li><a href="#product">product</a></li>
-                     <li><a href="#review">Reviews</a></li>
-                     <li><a href="#faq">Faq</a></li>
-                     <li><a href="#contact">Contact</a></li>
-                     <li><img src="./img/menuicon.png" /></li>
-                  </ul>
+                  <nav>
+                     <ul class="df">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#product">product</a></li>
+                        <li><a href="#review">Reviews</a></li>
+                        <li><a href="#faq">Faq</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                     </ul>
+                  </nav>
                </div>
             </div>
          </div>
@@ -52,7 +60,7 @@
                         <button class="btn bluebtn round wow bounceInUp" data-wow-delay="0.8s">READ MORE</button>
                      </div>
                   </div>
-                  <div class="bnrright wow bounceInLeft" data-wow-delay="0.6s">
+                  <div class="bnrright wow bounceInRight" data-wow-delay="0.6s">
                      <img src="./img/man.png" />
                   </div>
                </div>
@@ -62,7 +70,7 @@
          <!-- about -->
          <section class="about df por secspace" id="about">
             <div class="secbg">
-               <img src="img/worldmappng.png" alt=" " class="objbg" />
+               <img src="img/map.png" alt=" " class="objbg" />
             </div>
             <div class="container">
                <div class="aboutdiv df">
@@ -81,7 +89,7 @@
                         </ul>
                      </div>
                      <div class="content wow fadeInLeft" data-wow-delay="0.6s">
-                        <div class="content-1 active">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds.Lorem ipsum dolor sit am et, consec tetur adipi scing elit.</div>
+                        <div class="content-1 active">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds.</div>
                         <div class="content-2">consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds.Lorem ipsum dolor sit am et, consec tetur adipi scing elit.</div>
 
                         <div class="content-3">Sed sodales enim ut rhoncus lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds.Lorem ipsum dolor sit am et, consec tetur adipi scing elit.</div>
@@ -90,7 +98,7 @@
                      </div>
                      <button class="btn pinkbtn wow bounceInUp" data-wow-delay="0.8s">READ MORE</button>
                   </div>
-                  <div class="aboutright wow bounceInLeft" data-wow-delay="0.9s">
+                  <div class="aboutright wow bounceInRight" data-wow-delay="0.9s">
                      <img src="./img/watch.png" />
                   </div>
                </div>
@@ -174,7 +182,7 @@
                               <h4>Graphic Design</h4>
                               <p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds.</p>
                            </div>
-                           <button class="btn pinkbtn wow bounceInUp" data-wow-delay="0.4s">READ MORE</button>
+                           <button class="btn pinkbtn wow bounceInUp" data-wow-delay="0.3s">READ MORE</button>
                         </div>
                         <div class="info-item">
                            <figure>
@@ -184,13 +192,14 @@
                               <h4>Graphic Design</h4>
                               <p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds.</p>
                            </div>
-                           <button class="btn pinkbtn wow bounceInUp" data-wow-delay="0.4s">READ MORE</button>
+                           <button class="btn pinkbtn wow bounceInUp" data-wow-delay="0.3s">READ MORE</button>
                         </div>
                      </div>
                   </div>
 
-                  <div class="inforight">
-                     <iframe width="560" height="450" src="https://www.youtube.com/embed/bY-5SItA-Lo?si=vDMkTDKhJ3AUkEy1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="inforight wow bounceInRight" data-wow-delay="0.5s">
+                  
+                     <iframe src="https://www.youtube.com/embed/bY-5SItA-Lo?si=vDMkTDKhJ3AUkEy1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                   </div>
                </div>
             </div>
@@ -264,7 +273,7 @@
                      </div>
                   </ul>
                </div>
-               <button class="btn pinkbtn wow bounceInUp" data-wow-delay="1s">READ MORE</button>
+               <button class="btn pinkbtn wow bounceInUp" data-wow-delay="0.8s">READ MORE</button>
             </div>
          </section>
          <section class="productdetails por secspace">
@@ -312,12 +321,12 @@
                      <i class="fa fa-quote-left iconrev" aria-hidden="true"></i>
                      <p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit.</p>
                      <div class="clientname">
-                        <img src="img/starpng.png" />
+                        <img src="img/star.png" />
                         <h4>Mr. John Doe</h4>
                      </div>
                   </div>
                   <div class="rightreview">
-                     <img src="/img/man2.png" alt=" " class="wow bounceInUp" data-wow-delay="0.3s" />
+                     <img src="/img/man2.png" alt=" " class="wow fadeInRight" data-wow-delay="0.3s" />
                   </div>
                </div>
             </div>
@@ -325,15 +334,15 @@
 
          <!-- contact -->
          <section class="Contact text-center por secspace" id="contact">
-            <img src="./img/contactbg.jpg" class="objbg" />
+            <img src="./img/pinkbg.jpg" class="objbg" />
             <div class="container">
                <div class="contactdiv">
-                  <div class="contactdetails wow fadeInLeft" data-wow-delay="0.4s">
+                  <div class="contactdetails wow fadeInLeft" data-wow-delay="0.2s">
                      <h2>Need Help?</h2>
                      <h3>Don't Forget to Contact With Us</h3>
                      <p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus .</p>
                   </div>
-                  <form action="#" method="post" class="form df wow fadeInLeft" data-wow-delay="0.6s">
+                  <form action="#" method="post" class="form df wow fadeInLeft" data-wow-delay="0.2s">
                      <input type="text" placeholder="Name" required />
                      <input type="email" placeholder="Email" required />
                      <input type="submit" value="SUBMIT" />
@@ -346,15 +355,11 @@
             <div class="container">
                <div class="df wow bounceInUp" data-wow-delay="0.8s">
                   <ul class="media">
-                     <li a href="#">facebook</li>
-                     <li class="borderlft"></li>
-                     <li a href="#">twitter</li>
-                     <li class="borderlft"></li>
-                     <li a href="#">linkedin</li>
-                     <li class="borderlft"></li>
-                     <li a href="#">instagram</li>
-                     <li a href="#" class="borderlft"></li>
-                     <li>behance</li>
+                     <li><a href="#">facebook</a></li>
+                     <li><a href="#">twitter</a></li>
+                     <li><a href="#">linkedin</a></li>
+                     <li><a href="#">instagram</a></li>
+                     <li><a href="#">behance</a></li>
                   </ul>
                </div>
             </div>
@@ -363,88 +368,108 @@
          <!-- footer -->
          <section class="footer por secspace" id="faq">
             <div class="container">
-               <img src="./img/worldmappng.png" alt=" " class="objbg" />
+               <img src="./img/map.png" alt=" " class="objbg" />
                <div class="footer-top">
                   <div class="footerdetail df">
-                     <div class="footer_left df wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="companylist">
-                           <div class="header-nav"><h4>Company</h4></div>
-                           <div class="nav-item">
-                              <ul class="list">
-                                 <li>
-                                    <a href="">About</a>
-                                    <a href="">Approach</a>
-                                    <a href="">Sustainability</a>
-                                    <a href="">Carrers</a>
-                                    <a href="">News</a>
-                                 </li>
-                              </ul>
+                     <div class="footer_left wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="row df">
+                           <div class="coloum companylist">
+                                 <div class="header-nav"><h4>Company</h4></div>
+                                 <div class="nav-item">
+                                    <ul class="list">
+                                       <li>
+                                          <a href="">About</a>
+                                          <a href="">Approach</a>
+                                          <a href="">Sustainability</a>
+                                          <a href="">Carrers</a>
+                                          <a href="">News</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           
+                           <div class="coloum companylist">
+                                 <div class="header-nav"><h4>Company</h4></div>
+                                 <div class="nav-item">
+                                    <ul class="list">
+                                       <li>
+                                          <a href="">About</a>
+                                          <a href="">Approach</a>
+                                          <a href="">Sustainability</a>
+                                          <a href="">Carrers</a>
+                                          <a href="">News</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           
+                        
+                           <div class="row df">
+                              <div class="coloum companylist">
+                                 
+                                    <div class="header-nav"><h4>Company</h4></div>
+                                    <div class="nav-item">
+                                       <ul class="list">
+                                          <li>
+                                             <a href="">About</a>
+                                             <a href="">Approach</a>
+                                             <a href="">Sustainability</a>
+                                             <a href="">Carrers</a>
+                                             <a href="">News</a>
+                                          </li>
+                                       </ul>
+                                  
+                                 </div>
+                              </div>
+                          
+                           <div class="coloum companylist">
+                              
+                                 <div class="header-nav"><h4>Company</h4></div>
+                                 <div class="nav-item">
+                                    <ul class="list">
+                                       <li>
+                                          <a href="">About</a>
+                                          <a href="">Approach</a>
+                                          <a href="">Sustainability</a>
+                                          <a href="">Carrers</a>
+                                          <a href="">News</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                             
+                           </div>
                            </div>
                         </div>
-                        <div class="companylist">
-                           <div class="header-nav"><h4>Company</h4></div>
-                           <div class="nav-item">
-                              <ul class="list">
-                                 <li>
-                                    <a href="">About</a>
-                                    <a href="">Approach</a>
-                                    <a href="">Sustainability</a>
-                                    <a href="">Carrers</a>
-                                    <a href="">News</a>
-                                 </li>
-                              </ul>
+                        <div class="footer_right wow fadeInRight" data-wow-delay="0.2s">
+                           <div class="df">
+                              <div class="foo_img fst_line">
+                                 <img src="./img/lastimg1.png" />
+                              <img src="./img/lastimg2.png" />
+                              </div>
+                              <div class="foo_img">
+                                 <img src="img/lastimg3.png" />
+                           <img src="img/lastimg4.png" />
+                              </div>
                            </div>
                         </div>
-                        <div class="companylist">
-                           <div class="header-nav"><h4>Company</h4></div>
-                           <div class="nav-item">
-                              <ul class="list">
-                                 <li>
-                                    <a href="">About</a>
-                                    <a href="">Approach</a>
-                                    <a href="">Sustainability</a>
-                                    <a href="">Carrers</a>
-                                    <a href="">News</a>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="companylist">
-                           <div class="header-nav"><h4>Company</h4></div>
-                           <div class="nav-item">
-                              <ul class="list">
-                                 <li>
-                                    <a href="">About</a>
-                                    <a href="">Approach</a>
-                                    <a href="">Sustainability</a>
-                                    <a href="">Carrers</a>
-                                    <a href="">News</a>
-                                 </li>
-                              </ul>
-                           </div>
                         </div>
                      </div>
-                     <div class="footer_right wow bounceInUp" data-wow-delay="0.4s">
-                        <div class="df">
-                           <div><img src="./img/lastimg1.png" /></div>
-                           <div><img src="./img/lastimg2.png" /></div>
-                           <div><img src="img/lastimg3.png" /></div>
-                           <div><img src="img/lastimg4.png" /></div>
-                        </div>
-                     </div>
-                  </div>
+               </div>
+               <div class="footer-bottom df text-center secspace wow bounceInUp" data-wow-delay="0.4s">
+                  <h4 class="cpyright medium">©2022 Theme by psdfreebies.com</h4>
+                  <nav class="cpyright-nav df">
+                     <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Site Map</a></li>
+                     </ul>
+                  </nav>
                </div>
             </div>
-            <div class="footer-bottom df text-center">
-               <h4 class="cpyright medium">©2022 Theme by psdfreebies.com</h4>
-               <nav class="cpyright-nav df">
-                  <ul>
-                     <li><a href="#">Privacy</a></li>
-                     <li><a href="#">Terms of use</a></li>
-                     <li><a href="#">Site Map</a></li>
-                  </ul>
-               </nav>
-            </div>
+
+          
+           
          </section>
       </main>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
