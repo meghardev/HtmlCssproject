@@ -235,6 +235,7 @@ button.round {
    font-size: 17.42px;
    font-weight: 600;
    padding: 20px 34px 0 0;
+   text-transform: capitalize;
 }
 .navigation ul li:last-child {
    padding-right: 0;
