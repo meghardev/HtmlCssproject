@@ -306,12 +306,13 @@ button.round {
    color: black;
 }
 .aboutright {
-   width: 510px;
+   width: 540px;
    position: relative;
 }
 .about .aboutright img {
    position: absolute;
-   left: 40px;
+   top: -26px;
+   right: -32px;
 }
 
 /* .filters {
@@ -333,7 +334,7 @@ button.round {
    text-transform: uppercase;
 }
 .aboutleft {
-   width: calc(100% - 510px);
+   width: calc(100% - 540px);
 }
 
 .a .buttonnav {
@@ -362,14 +363,16 @@ div[class*="content-"] {
    font-size: 14px;
    line-height: 1.6;
    margin: 0 0 34px -8px;
+   width: 83%;
 }
 div .active {
    display: block;
 }
 .aboutleft .btn {
-   margin: 32px 0 0 0;
+   margin: 32px 0 0 12px;
    font-weight: 600;
    padding: 18px 23px 15px;
+   box-shadow: 0px 11px 3px #ff5990;
 }
 
 .filters .button,
@@ -426,6 +429,9 @@ div .active {
    padding: 80px calc(4vw + 10px) 41px;
    z-index: 1;
 }
+.featureitem h4 {
+   margin: 2px 7px 0 0px;
+}
 .Features {
    background-color: #4b2d7f;
 }
@@ -461,14 +467,17 @@ div .active {
 
 .postr-p {
    font-size: 20px;
-   line-height: 1.3;
+   line-height: 1.5;
+   width: 80%;
+   margin: auto;
+   padding: 30px 0px 36px 25px;
 }
 
 .secondtitle {
-   margin: 14px 0 0 0;
+   margin: 14px 0 0 46px;
 }
 .posterdetail .pinkbtn {
-   margin: 15px;
+   margin: 14px 0px 0px 45px;
    box-shadow: 0px 11px 3px #ff5990;
    font-weight: 600;
 }
@@ -484,7 +493,7 @@ div .active {
    font-weight: 400;
 }
 .infobox {
-   gap: 43px;
+   gap: 70px;
 }
 .infoleft {
    flex: 1 1 590px;
@@ -567,7 +576,7 @@ iframe {
 }
 .product .btn {
    display: block;
-   margin: auto;
+   margin: 36px auto;
 }
 .gallerybox .grid {
    max-width: 1200px;
@@ -783,6 +792,7 @@ input[type="submit"] {
    text-decoration: black;
    font-size: 17px;
    padding-right: 12px;
+   font-weight: 600;
 }
 
 .cpyright-nav ul li:before {
@@ -875,7 +885,7 @@ input[type="submit"] {
       padding-top: 111px;
    }
    .aboutnav li {
-      padding: 18px 24px 13px;
+      padding: 18px 26px 14px;
    }
    .rightreview img {
       right: 130px;
