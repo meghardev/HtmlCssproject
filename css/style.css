@@ -270,13 +270,12 @@ button.round {
 
 .bnrdiv .bnrright {
    width: 452px;
-   position: relative;
 }
 .bnrdiv .bnrright img {
    position: absolute;
-   right: 100px;
-
+   right: 110px;
    bottom: 48px;
+   max-height: 68%;
 }
 
 .bnrleft p {
@@ -368,7 +367,7 @@ div .active {
    display: block;
 }
 .aboutleft .btn {
-   margin: 50px 0 0 0;
+   margin: 32px 0 0 0;
    font-weight: 600;
    padding: 18px 23px 15px;
 }
@@ -529,6 +528,7 @@ iframe {
 .info-item button {
    margin-top: 3px;
    font-weight: 600;
+   box-shadow: 0px 11px 3px #ff5990;
 }
 .info-two {
    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
@@ -540,6 +540,10 @@ iframe {
 }
 .product {
    color: black;
+}
+.probtn {
+   font-weight: 600;
+   box-shadow: 0px 11px 3px #ff5990;
 }
 .productpart {
    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -716,9 +720,7 @@ input[type="submit"] {
 .footer_right img {
    padding: 0 10px 0;
 }
-div .foo_img {
-   /* margin-left: 100px; */
-}
+
 .fst_line {
    margin-bottom: 10px;
 }
@@ -890,8 +892,9 @@ div .foo_img {
 
 @media (max-width: 1215px) {
    .bnrdiv .bnrright img {
-      left: 0;
+      left: auto;
       bottom: 44px;
+      max-height: 50%;
    }
    h1,
    .h1 {
@@ -1108,11 +1111,13 @@ div .foo_img {
 
    .bnrbuttons .btn {
       display: block;
-      margin: 0 25px 7px 0;
+      margin: 0 25px 13px 0;
+      padding: 14px 29px;
+      font-size: 14px;
    }
 
    .bnrdiv .bnrright img {
-      right: 0;
+      right: 50px;
       left: auto;
       bottom: 39px;
    }
@@ -1322,8 +1327,12 @@ div .foo_img {
    .Contact p,
    .infoleft p,
    .product p,
-   .review p {
+   .review p,
+   .bnrleft p {
       font-size: 13px;
+   }
+   .content div {
+      line-height: 1.4;
    }
    button,
    .button,
@@ -1354,8 +1363,9 @@ div .foo_img {
       top: 22px;
    }
    .bnrbuttons .btn {
-      padding: 18px 35px;
+      padding: 13px 35px;
       font-size: 13px;
+      margin: 0 27px 10px 0;
    }
    .bnrdiv .bnrleft {
       padding-bottom: 65px;
