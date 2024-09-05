@@ -477,7 +477,7 @@ div .active {
    margin: 14px 0 0 46px;
 }
 .posterdetail .pinkbtn {
-   margin: 14px 0px 0px 45px;
+   margin: 14px 0px 20px 45px;
    box-shadow: 0px 11px 3px #ff5990;
    font-weight: 600;
 }
@@ -746,6 +746,8 @@ input[type="submit"] {
    display: block;
    padding: 0 0 0 0;
    font-family: "Poppins Bold";
+
+   font-size: 19px;
 }
 .companylist h4 {
    font-size: 26px;
@@ -982,8 +984,12 @@ input[type="submit"] {
       font-size: 25px;
    }
    h4,
-   .h4 {
+   .h4,
+   .companylist h4 {
       font-size: 21px;
+   }
+   .list li a {
+      font-size: 16px;
    }
 
    .bnrbuttons .btn {
@@ -1184,6 +1190,9 @@ input[type="submit"] {
    .aboutnav li {
       padding: 13px 17px;
    }
+   iframe {
+      height: 280px;
+   }
 }
 @media (max-width: 768px) {
    button,
@@ -1226,6 +1235,10 @@ input[type="submit"] {
    .Contact p {
       font-size: 15px;
    }
+   .cpyright,
+   .cpyright-nav ul li a {
+      font-size: 16px;
+   }
    h4,
    .h4 {
       font-size: 19px;
@@ -1264,6 +1277,7 @@ input[type="submit"] {
    .leftreview i {
       font-size: 39px;
    }
+
    .aboutleft .btn {
       margin: 0;
       padding: 10px 16px;
@@ -1273,6 +1287,15 @@ input[type="submit"] {
    }
    .bnrdiv {
       min-height: 460px;
+   }
+   .Contact p {
+      margin: 20px 22px 29px;
+   }
+   .content div {
+      width: 100%;
+   }
+   .review p {
+      padding: 0 0 14px 55px;
    }
 }
 
@@ -1330,7 +1353,11 @@ input[type="submit"] {
       font-size: 20px;
    }
    h4,
-   .h4 {
+   .h4,
+   .companylist h4 {
+      font-size: 18px;
+   }
+   .list li a {
       font-size: 15px;
    }
    p,
